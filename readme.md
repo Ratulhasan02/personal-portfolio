@@ -55,7 +55,7 @@ personal-portfolio/
 
 ## Live Demo
 
-[Add your live website link here]
+https://ratulhasan02.github.io/personal-portfolio/
 
 ## Author
 
@@ -63,6 +63,6 @@ personal-portfolio/
 
 BSc in Computer Science and Engineering Student
 
-GitHub: [Add your GitHub profile]
+GitHub: https://github.com/Ratulhasan02
 
-LinkedIn: [Add your LinkedIn profile]
+LinkedIn: [ LinkedIn profile]
