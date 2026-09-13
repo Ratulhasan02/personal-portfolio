@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ratul Hasan — BSc CSE Student &amp; Aspiring Software/AI Developer</title>
+  <meta name="description"
+    content="Portfolio of Ratul Hasan, a final-year BSc CSE student from Bangladesh building projects and learning software &amp; AI development.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Mobile top bar -->
+  <header class="mobile-bar">
+    <span class="mobile-bar__name">Ratul Hasan</span>
+    <button class="mobile-bar__toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false"
+      aria-controls="sidebar">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar__inner">
+        <div class="portrait">
+          <img src="assets/ratul.jpg" alt="Portrait of Ratul Hasan" width="640" height="852">
+        </div>
+
+        <div class="identity">
+          <h1 class="identity__name">Ratul Hasan</h1>
+          <p class="identity__role">BSc CSE Student<br>Aspiring Software &amp; AI Developer</p>
+          <p class="identity__location">Dhaka, Bangladesh</p>
+        </div>
+
+        <nav class="sidenav" aria-label="Primary">
+          <ul>
+            <li><a href="#home" class="sidenav__link" data-nav>Home</a></li>
+            <li><a href="#about" class="sidenav__link" data-nav>About</a></li>
+            <li><a href="#skills" class="sidenav__link" data-nav>Skills</a></li>
+            <li><a href="#projects" class="sidenav__link" data-nav>Projects</a></li>
+            <li><a href="#education" class="sidenav__link" data-nav>Education</a></li>
+            <li><a href="#learning" class="sidenav__link" data-nav>Learning</a></li>
+            <li><a href="#contact" class="sidenav__link" data-nav>Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="social-row">
+          <a href="mailto:ratul.hasan@example.com" aria-label="Email Ratul" title="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M3 6.5h18v11H3z" />
+              <path d="M3 6.5l9 7 9-7" />
+            </svg>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 1.5A10.5 10.5 0 001.5 12c0 4.66 3.02 8.6 7.2 10 .53.1.72-.23.72-.51v-1.98c-2.93.64-3.55-1.24-3.55-1.24-.48-1.22-1.17-1.55-1.17-1.55-.96-.66.07-.64.07-.64 1.06.07 1.62 1.09 1.62 1.09.94 1.62 2.47 1.15 3.07.88.1-.68.37-1.15.67-1.42-2.34-.27-4.8-1.17-4.8-5.2 0-1.15.4-2.09 1.08-2.83-.11-.27-.47-1.35.1-2.82 0 0 .89-.28 2.9 1.08a10 10 0 015.28 0c2.01-1.36 2.9-1.08 2.9-1.08.57 1.47.21 2.55.1 2.82.68.74 1.08 1.68 1.08 2.83 0 4.04-2.47 4.92-4.82 5.19.38.33.72.98.72 1.98v2.93c0 .28.19.62.73.51a10.51 10.51 0 007.19-10c0-5.8-4.7-10.5-10.5-10.5z" />
+            </svg>
+          </a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="LinkedIn"
+            title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-.98 1.83-2 3.77-2 4.03 0 4.78 2.5 4.78 5.76V21H18.4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.44-2.16 2.96V21H10z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main id="main" class="content">
+
+      <!-- HOME -->
+      <section id="home" class="section hero">
+        <p class="hero__kicker">Hi, I&rsquo;m Ratul</p>
+        <h2 class="hero__title">Building my way into software &amp; AI development.</h2>
+        <p class="hero__lede">I&rsquo;m a final-year Computer Science &amp; Engineering student, about six months from
+          graduating. Most of what you&rsquo;ll find here are practice builds and academic projects &mdash; the record
+          of someone learning in public, not a finished product.</p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View my projects</a>
+          <a href="#contact" class="btn btn--ghost">Contact me</a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <h3 class="section__title">About</h3>
+        <div class="about__grid">
+          <p class="about__text">
+            I&rsquo;m a BSc CSE student in Bangladesh with roughly six months left before graduation. Over the past few
+            years I&rsquo;ve been building up my programming fundamentals through coursework, and more recently
+            I&rsquo;ve started spending my free time recreating real websites and small tools to understand how
+            they&rsquo;re actually put together &mdash; things like the Netflix homepage or a resume builder.
+          </p>
+          <p class="about__text">
+            I enjoy the front-end side of web development the most right now, but I&rsquo;m also spending time with
+            Python, data libraries, and the basics of machine learning, because AI is the direction I want to grow
+            toward. I don&rsquo;t have industry experience yet &mdash; what I have is consistency: I keep picking
+            projects slightly harder than the last one and finishing them.
+          </p>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <h3 class="section__title">Skills</h3>
+        <p class="section__sub">What I can already build with, and what I&rsquo;m actively adding.</p>
+
+        <div class="skills__groups">
+          <div class="skill-group">
+            <h4>Frontend</h4>
+            <ul class="tag-list">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">JavaScript</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h4>Programming</h4>
+            <ul class="tag-list">
+              <li class="tag">Python</li>
+              <li class="tag">Java</li>
+              <li class="tag">C / C#</li>
+              <li class="tag">Assembly</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h4>Database</h4>
+            <ul class="tag-list">
+              <li class="tag">SQL</li>
+              <li class="tag">MySQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h4>Python for Data &amp; AI</h4>
+            <ul class="tag-list">
+              <li class="tag">NumPy</li>
+              <li class="tag">Pandas</li>
+              <li class="tag">TensorFlow</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="learning-now">
+          <h4>Currently learning</h4>
+          <ul class="tag-list tag-list--learning">
+            <li class="tag tag--learning">React</li>
+            <li class="tag tag--learning">Node.js</li>
+            <li class="tag tag--learning">Modern JavaScript</li>
+            <li class="tag tag--learning">Backend Development</li>
+            <li class="tag tag--learning">AI / ML</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <h3 class="section__title">Projects</h3>
+        <p class="section__sub">A running log of what I&rsquo;ve built while practicing &mdash; in the order I built
+          them.</p>
+
+        <div class="filter-row" role="group" aria-label="Filter projects by technology">
+          <button class="filter-chip is-active" data-filter="all">All</button>
+          <button class="filter-chip" data-filter="html-css">HTML &amp; CSS</button>
+          <button class="filter-chip" data-filter="js">JavaScript</button>
+        </div>
+
+        <div class="project-log">
+
+          <article class="project-card" data-tech="html-css">
+            <div class="project-card__media">
+              <img src="assets/ultraedit.jpg" alt="UltraEdit download page clone screenshot">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__index">Log 01</span>
+              <h4>UltraEdit Download Page (Clone)</h4>
+              <p>A practice rebuild of a software download page &mdash; focused on layout structure and clean CSS, no
+                functionality attached.</p>
+              <ul class="tag-list tag-list--tight">
+                <li class="tag tag--mono">HTML</li>
+                <li class="tag tag--mono">CSS</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://github.com/Ratulhasan02/ultraedit-webpage-practice" class="btn btn--small">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tech="html-css">
+            <div class="project-card__media">
+              <img src="assets/netflix.jpg" alt="Netflix homepage clone screenshot">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__index">Log 02</span>
+              <h4>Netflix Homepage Clone</h4>
+              <p>Recreated the Netflix landing page layout to practice responsive grids, hero sections, and content rows
+                in plain CSS.</p>
+              <ul class="tag-list tag-list--tight">
+                <li class="tag tag--mono">HTML</li>
+                <li class="tag tag--mono">CSS</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://github.com/Ratulhasan02/netflix-homepage-clone" class="btn btn--small">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tech="js">
+            <div class="project-card__media">
+              <img src="assets/to-do list.jpg" alt="To-Do List screenshot">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__index">Log 03</span>
+              <h4>To-Do List</h4>
+              <p>A simple to-do list application built with HTML, CSS, and JavaScript to practice DOM manipulation and
+                event handling.</p>
+              <ul class="tag-list tag-list--tight">
+                <li class="tag tag--mono">HTML</li>
+                <li class="tag tag--mono">CSS</li>
+                <li class="tag tag--mono">JavaScript</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--small">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tech="js">
+            <div class="project-card__media">
+              <img src="assets/resumebuilder.jpg" alt="Resume Builder screenshot">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__index">Log 04</span>
+              <h4>Resume Builder</h4>
+              <p>A small tool where you fill in a form and get a live, formatted resume preview &mdash; my first real
+                project using JavaScript for interactivity, not just styling.</p>
+              <ul class="tag-list tag-list--tight">
+                <li class="tag tag--mono">HTML</li>
+                <li class="tag tag--mono">CSS</li>
+                <li class="tag tag--mono">JavaScript</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--small">GitHub</a>
+                <a href="#" class="btn btn--small btn--ghost-small">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card--wip" data-tech="js">
+            <div class="project-card__media project-card__media--spotify" aria-hidden="true">
+              <span class="mock-browser__dot"></span><span class="mock-browser__dot"></span><span
+                class="mock-browser__dot"></span>
+              <div class="mock-content mock-content--spotify">
+                <div class="mock-sidebar"></div>
+                <div class="mock-player"></div>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__index">Log 05 &middot; In progress</span>
+              <h4>Spotify Clone</h4>
+              <p>Currently building this one &mdash; a Spotify-style interface with a working player UI, using HTML,
+                CSS, and JavaScript.</p>
+              <ul class="tag-list tag-list--tight">
+                <li class="tag tag--mono">HTML</li>
+                <li class="tag tag--mono">CSS</li>
+                <li class="tag tag--mono">JavaScript</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--small">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section">
+        <h3 class="section__title">Education</h3>
+        <div class="edu-card">
+          <div class="edu-card__main">
+            <h4>BSc in Computer Science &amp; Engineering</h4>
+            <p class="edu-card__school">Uttara University</p>
+          </div>
+          <div class="edu-card__status">
+            <span class="status-dot" aria-hidden="true"></span>
+            Final year &mdash; expected graduation: 2027
+          </div>
+        </div>
+      </section>
+
+      <!-- LEARNING & DEVELOPMENT -->
+      <section id="learning" class="section">
+        <h3 class="section__title">Learning &amp; Development</h3>
+        <p class="section__sub">Instead of a work history I don&rsquo;t have yet, here&rsquo;s how I actually spend my
+          time.</p>
+        <ul class="learning-list">
+          <li><strong>Academic projects</strong> &mdash; coursework assignments and CSE lab projects throughout the
+            degree.</li>
+          <li><strong>Personal web projects</strong> &mdash; cloning real websites and building small tools to learn by
+            doing.</li>
+          <li><strong>Programming practice</strong> &mdash; regular exercises in Python, Java, and C to keep
+            fundamentals sharp.</li>
+          <li><strong>Database practice</strong> &mdash; writing schemas and queries in SQL and MySQL.</li>
+          <li><strong>Python &amp; AI/ML learning</strong> &mdash; working through NumPy, Pandas, and TensorFlow basics.
+          </li>
+          <li><strong>Continuous experimentation</strong> &mdash; trying new tools and languages outside of class to see
+            what sticks.</li>
+        </ul>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services" class="section">
+        <h3 class="section__title">What I can help with</h3>
+        <p class="section__sub">Beginner-level, honestly &mdash; but dependable.</p>
+        <div class="services-grid">
+          <div class="service-item">Responsive website development</div>
+          <div class="service-item">Frontend development (HTML/CSS/JS)</div>
+          <div class="service-item">Basic JavaScript applications</div>
+          <div class="service-item">Basic Python programming</div>
+          <div class="service-item">SQL &amp; database projects</div>
+          <div class="service-item">Academic &amp; personal projects</div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <h3 class="section__title">Contact</h3>
+        <p class="section__sub">Have a project, an internship idea, or just want to say hi? I&rsquo;d like to hear from
+          you.</p>
+
+        <div class="contact__grid">
+          <form class="contact-form" id="contactForm" novalidate>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn--primary">Send message</button>
+            <p class="contact-form__note" id="contactNote" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-links">
+            <a href="mailto:ratulhasan112002@gmail.com">ratulhasan112002@gmail.com</a>
+            <a href="https://github.com/Ratulhasan02" target="_blank" rel="noopener">github.com/Ratulhasan02</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank"
+              rel="noopener">linkedin.com/in/yourusername</a>
+            <a href="https://www.facebook.com/Ratul.h.01" target="_blank" rel="noopener">facebook.com/Ratul.h.01</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>&copy; 2026 Ratul Hasan. Built with HTML, CSS &amp; JavaScript.</p>
+      </footer>
+
+    </main>
+  </div>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 19V5M5 12l7-7 7 7" />
+    </svg>
+  </button>
+
+  <div class="nav-scrim" id="navScrim"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
