@@ -75,14 +75,14 @@ A responsive web-based resume builder that allows users to create, customize, pr
 ```text
 personal-portfolio/
 ├── index.html
-├── style.css
+├── styles.css
 ├── script.js
 └── assets/
 ```
 
 ## Live Demo
 
-https://ratulhasan02.github.io/personal-portfolio/
+[https://ratulhasan02.github.io/personal-portfolio/](https://ratulhasan02.github.io/personal-portfolio/)
 
 ## Author
 
@@ -93,3 +93,8 @@ BSc in Computer Science and Engineering Student
 GitHub: https://github.com/Ratulhasan02
 
 LinkedIn: https://www.linkedin.com/in/ratulhasan02/
+
+## Documentation
+
+- [Site Plan](site-plan.md) — Website purpose, target visitors, sections, and homepage wireframe.
+- [Bug Fix Log](bug-fix-log.md) — Record of identified issues, fixes, and testing.
