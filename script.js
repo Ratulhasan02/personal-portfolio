@@ -9,11 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
     sidebar.classList.remove('is-open');
     navScrim.classList.remove('is-visible');
     navToggle.setAttribute('aria-expanded', 'false');
+    navToggle.setAttribute('aria-label', 'Open navigation');
   }
   function openNav() {
     sidebar.classList.add('is-open');
     navScrim.classList.add('is-visible');
     navToggle.setAttribute('aria-expanded', 'true');
+    navToggle.setAttribute('aria-label', 'Close navigation');
   }
   navToggle.addEventListener('click', () => {
     const isOpen = sidebar.classList.contains('is-open');
