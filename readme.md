@@ -77,8 +77,14 @@ personal-portfolio/
 ├── index.html
 ├── styles.css
 ├── script.js
-└── assets/
+├── assets/
+└──screenshots/
+
 ```
+## Screenshots
+[Desktop](screenshots/Desktop.pngDesktop.png)
+[Phone](screenshots/Phone.png)
+
 
 ## Live Demo
 
@@ -98,3 +104,4 @@ LinkedIn: https://www.linkedin.com/in/ratulhasan02/
 
 - [Site Plan](site-plan.md) — Website purpose, target visitors, sections, and homepage wireframe.
 - [Bug Fix Log](bug-fix-log.md) — Record of identified issues, fixes, and testing.
+- [Design-Notes](design-notes.md)- Record of all design in details.
